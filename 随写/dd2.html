@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <div></div>
+        <script type="text/javascript">
+            function funcA(x){
+                var temp = 4;
+                function funcB(y){
+                    document.write( ++x + y + (temp--));
+                }
+                funcB(5);
+            }
+            let a = funcA(6)
+        </script>
+    </body>
+</html>
